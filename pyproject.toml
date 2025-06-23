@@ -1,0 +1,16 @@
+[project]
+name = "localtokens"
+version = "0.1.0"
+description = "A tool to count tokens in a local directory, respecting .gitignore."
+authors = [{ name = "Python Architect", email = "architect@example.com" }]
+requires-python = ">=3.9"
+dependencies = [
+    "click>=8.0",
+    "tiktoken>=0.5",
+    "gitignore-parser>=0.1",
+    "rich>=13.0",
+]
+
+[project.scripts]
+# This line creates the `localtokens` command in your terminal after installation
+localtokens = "tokenizer.main:cli"
