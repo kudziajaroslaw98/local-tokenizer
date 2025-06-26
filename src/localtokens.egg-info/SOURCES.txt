@@ -1,3 +1,4 @@
+README.md
 pyproject.toml
 src/localtokens.egg-info/PKG-INFO
 src/localtokens.egg-info/SOURCES.txt
